@@ -3,18 +3,18 @@ Forked version of https://github.com/nambo/gulp-js-import, adds more options.
 ## INSTALL
 
 ```
-npm install gulp-js-import --save-dev
+npm install gulp-js-import-file --save-dev
 ```
 ## USAGE
 
-First, install `gulp-js-import` as a devDependency:
+First, install `gulp-js-import-file` as a devDependency:
 
 Then add it to the gulpfile.js:
 
 
 ```
 var gulp = require('gulp');
-var jsImport = require('gulp-js-import');
+var jsImport = require('gulp-js-import-file');
 
 gulp.task('import', function() {
   return gulp.src('index.js')
@@ -79,7 +79,7 @@ Enter the `demo` directory in command
 ```
 cd demo
 ```
-Install `gulp` `gulp-js-import` 
+Install `gulp` `gulp-js-import-file` 
 
 ```
 gulp install
